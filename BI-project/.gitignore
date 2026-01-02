@@ -1,0 +1,30 @@
+# Données générées
+data/source/*
+data/staging/*
+data/transformed/*
+!data/source/.gitkeep
+!data/staging/.gitkeep
+!data/transformed/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
